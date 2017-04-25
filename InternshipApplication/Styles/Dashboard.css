@@ -1,0 +1,234 @@
+.MenuBar{
+	padding : 0px;
+	font-size : 15px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+	font-size : 15px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.sideBar nav {
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  float : left;
+}
+.sideBar nav ul{
+  padding : 0px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  width : 110px;
+  height : 600px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+.sideBar nav ul li {
+  display: inline-block;
+  float : left;
+}
+.sideBar nav ul li a {
+  padding: 40px;
+  font-family: "Roboto";
+  color: rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
+  font-size: 25px;
+  text-decoration: none;
+  display: block;
+  float : left;
+}
+.sideBar nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 0, 0, 0.7);
+  float : left;
+}
+.footerBlock{
+	height : 100px;
+	width : 100%;
+	background-color : #1A2930;
+	font-family : "Roboto";
+	color: white; 
+	padding : 10px;
+	display : inline-block;
+	position : relative;
+	bottom : 0;
+}
+.footerBlock:hover {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6), inset 0 0 1px rgba(255, 255, 255, 0.7);
+}
+.subscribe{
+	text-align : center;
+}
+.Details{
+	font-family : "Roboto";
+	float : right;
+	height : auto;
+	width : 90%;
+	font-size : 17px;
+	text-align : justify;
+}
+.Infobox{
+	float:left;
+	height : auto;
+	width : 25%;
+	margin-top :50px;
+	word-break:normal;
+    white-space:normal;
+	text-align : justify;
+}
+.Infobox img{
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+.Infobox img:hover{
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+.DashboardTable{
+	
+}
+#faq1{
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+	font-family : "Roboto";
+	width : 100%;
+	background-color : #1A2930;
+	color : white;
+}
+#faq2{
+	background-color : #1A2930;
+	color : white;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+#faq3{
+	background-color : #1A2930;
+	color : white;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+#faq4{
+	background-color : #1A2930;
+	color : white;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+#faq5{
+	background-color : #1A2930;
+	color : white;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+#faq6{
+	background-color : #1A2930;
+	color : white;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+#faq1:hover{
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+#faq2:hover{
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+#faq3:hover{
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+#faq4:hover{
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+#faq5:hover{
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+#faq6:hover{
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+.ans1{
+	color : black;
+	display : none;
+}
+.ans2{
+	color : black;
+	display : none;
+}
+.ans3{
+	color : black;
+	display : none;
+}
+.ans4{
+	color : black;
+	display : none;
+}
+.ans5{
+	color : black;
+	display : none;
+}
+.ans6{
+	color : black;
+	display : none;
+}
+.contact{
+	margin-top : 80px;
+	display : none;
+}
+.map{
+	margin-top : 80px;
+	margin-bottom : 30px;
+}
+table tr:nth-child(even) {background: #DCD0C0}
+table tr:nth-child(odd) {background: #F4F4F4}
+.dashboard{
+	margin-left : 10px;
+	margin-top : 30px;
+}
+.dashboard th{
+	background-color : #1A2930;
+	color : white;
+	font-family : "Roboto";
+	font-size : 15px;
+}
+.dashboard th, td{
+	width : 24%;
+	text-align : center;
+}
+.GeneralInfo{
+	height : 45px;
+	width : 91%;
+	background-color : #66B9BF;
+	color : white;
+	position : relative;
+	margin-left : 120px;
+	font-size : 19px;
+	padding-top : 1px;
+	padding-bottom : 5px;
+	border-radius : 5px;
+}
+.GeneralInfo:hover{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+#slider{
+	width : 100%;
+	height : 25px;
+}

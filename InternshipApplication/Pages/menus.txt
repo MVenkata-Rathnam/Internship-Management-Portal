@@ -1,0 +1,13 @@
+dashboard
+View internships
+Profile change
+comment
+feedback
+set preferences
+logout
+
+About us
+Contact Us
+Global news & events
+Success stories
+Subscribe

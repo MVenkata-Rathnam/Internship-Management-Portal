@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Victory Internship Portal</title>
+<meta name="title" content="Internship Application"/>
+<meta charset="utf-8">
+<link rel = "stylesheet" type="text/css" href = "../Styles/home.css">
+<link rel = "stylesheet" type="text/css" href = "../Styles/Dashboard.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#faq1").click(function(){
+        $(".ans1").toggle();
+	});
+	$("#faq2").click(function(){
+        $(".ans2").toggle();
+	});
+	$("#faq3").click(function(){
+        $(".ans3").toggle();
+	});
+	$("#faq4").click(function(){
+        $(".ans4").toggle();
+	});
+	$("#faq5").click(function(){
+        $(".ans5").toggle();
+	});
+	$("#faq6").click(function(){
+        $(".ans6").toggle();
+	});
+	$("#downArrow").click(function(){
+        $(".contact").toggle();
+    });	
+});
+history.pushState(null,null,document.title);
+window.addEventListener('popstate',function(){
+	history.pushState(null,null,document.title);
+});
+</script>
+</head>
+<body>
+	<div class = "Main">
+		<div class = "MenuBar">
+			<nav>
+				<div class = "Heading">
+					<b style = "font-size : 30px;">VICTORY INTERNSHIP PORTAL</b>
+					<img style = "float : left" src="../Images/Logo.png" alt="Logo" height = "60px" width = "80px"><br>
+					-"Imagination at Work"
+				</div>
+				<ul>
+					<li>
+						<a class = "tooltip"  href = "../UserHome.jsp">
+							<img src = "../Images/Home.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">Dashboard</span>
+						</a>
+					</li>
+					<li>
+						<a class = "tooltip"  href = "../ViewInternship.jsp">
+							<img src = "../Images/Internships.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">View Internship</span>
+						</a>
+					</li>
+					<li>
+						<a class = "tooltip"  href = "../Comment.jsp">
+							<img src = "../Images/comment.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">Comment</span>
+						</a>
+					</li>
+					<li>
+						<a class = "tooltip"  href = "../Feedback.jsp">
+							<img src = "../Images/Feedback.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">Feedback</span>
+						</a>
+					</li>
+					<li>
+						<a class = "tooltip"  href = "../ProfileChange.jsp">
+							<img src = "../Images/Profile.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">Profile</span>
+						</a>
+					</li>
+					<li>
+						<a class = "tooltip"  href = "../signout.jsp">
+							<img src = "../Images/Logout.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">Sign Out</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class = "sideBar">
+			<nav>
+				<ul>
+					<li>
+						<a class = "tooltip"  href = "AboutUs.html">
+							<img src = "../Images/AboutUs.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">About Us</span>
+						</a>
+					</li>
+					<li>
+						<a class = "tooltip"  href = "ContactUs.html">
+							<img src = "../Images/Contactus.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">FAQ And Contact</span>
+						</a>
+					</li>
+					<li>
+						<a class = "tooltip"  href = "../SuccessStory.jsp">
+							<img src = "../Images/success_story.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">Success Stories</span>
+						</a>
+					</li>
+					<li>
+						<a class = "tooltip"  href = "Services.html">
+							<img src = "../Images/GlobalNews.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">Global Services</span>
+						</a>
+					</li>
+					<li>
+						<a class = "tooltip"  href = "#subscribe">
+							<img src = "../Images/Subscribe.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">Subscribe</span>
+						</a>
+					</li>
+				</ul>
+			  </nav>
+		</div>
+		<div class = "Details">
+		<div id ="faq1">
+		<h2>What is an internship?</h2>
+		</div>
+		<div class ="ans1">
+			<p>An internship is an on-site work experience that is either directly related to your major field of study or your career interest.  It can be paid or unpaid, and held during the summer or throughout the academic year.</p>
+		</div>
+		<div id ="faq2">
+		<h2>What are some benefits of internships and student work experience?</h2>
+		</div>
+		<div class ="ans2">
+			<p>In addition to potential wages earned, student work and internship experience is valuable for exploring fields of work which you may wish to enter after graduation. Experience develops new skills and strengthens existing skills. Work experience helps you establish professional contacts in a potential field of interest. You will be able to demonstrate work setting accomplishments in your resume.</p>
+		</div>
+		
+		<div id ="faq3">
+		<h2>How do I find an internship?</h2>
+		</div>
+		<div class ="ans3">
+			<p>The most effective internship searches utilize a variety of different search strategies.  You can search your interests by keyword(s). (You may also want to use the word "intern" or "internship" in your search.)</p>
+		</div>
+		
+		<div id ="faq4">
+		<h2>How many hours can I work as a student?</h2>
+		</div>
+		<div class ="ans4">
+			<p>If possible, wait to commit to a job until you have a feeling for how much time you have beyond coursework, extracurricular activities, and some time for yourself. And note that our office receives job listings year-round and also receives short-term, project positions which do not require a long-term commitment. When classes are in session, students are advised to work no more than 20 hours/week.</p>
+		</div>
+
+		<div id ="faq5">
+		<h2>Can I get academic credit for my internship?</h2>
+		</div>
+		<div class ="ans5">
+			<p>It may be possible to get academic credit for your internship, but not from the Career Center.  Only academic departments can offer credit, and policies differ greatly from one department to the next. Often your internship must relate directly to your major and will require you to complete a substantial research project or writing component as part of special studies course.</p>
+		</div>
+		
+		<div id ="faq6">
+		<h2>How can I get an internship if I have no experience?</h2>
+		</div>
+		<div class ="ans6">
+			<p>Employers value skills developed through academic work, volunteer experiences, extracurricular experiences, or other experiences which demonstrate skills useful in work.</p>
+		</div>
+		<center>
+		<div class = "Arrow">
+			<img style = "background-color:grey" id = "downArrow" src ="../Images/DownArrow.jpg" width = "50px" height = "50px">
+		</div>
+		</center>
+		<div class = "contact">
+		<center>
+			<h1>We &apos; re here to help</h1>
+			<h3>We &apos; re friendly and available to chat. Reach out to us anytime and we &apos; ll happily answer your questions.</h3>
+			<h1>Contact Us</h1>
+			<table align = "center" border = '0'>
+			<tr>
+				<td><b>Phone</b></td>
+				<td>044 - 22238747</td>
+			</tr>
+			<tr>
+				<td><b>Email</b></td>
+				<td>info@VictoryInternship.com</td>
+			</tr>
+			<tr>
+				<td><b>Support Email</b></td>
+				<td>support@VictoryInternship.com</td>
+			</tr>
+			<tr>
+				<td><b>Training And Support<b> </td>
+				<td>help@VictoryInternship.com</td>
+			</tr>
+			<tr>
+				<td><b>Head Quarters</b></td>
+				<td><address>Office HeadQuarters<br>
+							 Ring Towers<br>
+							 6th Main Road<br>
+							 VenkatRaman Nagar<br>
+							 Chennai - 64</address></td>
+			</tr>
+			</table>
+			<div class = "map">
+			<h1>Location</h1>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5345071917955!2d80.14783581381475!3d12.937612290878173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525ef8e65831a1%3A0x49d57267c925776b!2s6th+Main+Rd%2C+Venkatraman+Nagar%2C+Hasthinapuram%2C+Chennai%2C+Tamil+Nadu+600064!5e0!3m2!1sen!2sin!4v1492710509027" width="100%" height="350" frameborder="0" style="border:0" ></iframe>
+			</div>
+		</center>
+		</div>
+		</div>
+		<div class ="footerBlock">
+			<center>
+				<h3>Copyright &copy; Venkata Rathnam Muralidharan 2017 </h3>
+			</center>
+			<div id = "subscribe" class ="subscribe">
+				<a href = "http://www.facebook.com" target="_blank"><img src = "../Images/Facebook.png" height = "50px" width = "50px"></a>
+				<a href = "http://www.linkedin.com" target="_blank"><img src = "../Images/LinkedIn.png" height = "50px" width = "50px"></a>
+				<a href = "http://www.twitter.com" target="_blank"><img src = "../Images/Twitter.png" height = "50px" width = "50px"></a>
+				<a href = "http://www.plus.google.com" target="_blank"><img src = "../Images/Google+.png" height = "50px" width = "50px"></a>
+				<a href = "http://www.skype.com" target="_blank"><img src = "../Images/Skype.png" height = "50px" width = "50px"></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

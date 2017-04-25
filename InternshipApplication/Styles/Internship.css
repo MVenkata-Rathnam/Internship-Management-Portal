@@ -1,0 +1,83 @@
+.Internships{
+	height : auto;
+	width : 100%;
+}
+.Preferences{
+	width : 200px;
+	height : auto;
+	float : left;
+	margin-left : 20px;
+	border-style: solid;
+    border-color: tomato #ffffff #ffffff #ffffff;
+}
+.verticalLine{
+	background-color : tomato;
+	margin-Left : 332px;
+	position : absolute;
+	height : auto;
+	min-height : 550px;
+	float : left;
+	width : 1px;
+}
+.InternshipBox{
+	width : 700px;
+	height : 550px;
+	float : left;
+	margin-left : 400px;
+	position : absolute;
+	overflow : scroll;
+}
+input[type=submit]{
+    background-color: tomato;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+.temp{
+	height : auto;
+	background-color : white;
+	box-shadow : 0 0 10 rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+	margin-left : 10px;
+}
+.temp:hover {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 0, 0, 0.7);
+}
+.rad{
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+    display: inline;
+    border: 1px solid #ccc;
+	box-sizing: border-box;
+	position : inline;
+	float : left;
+	margin-left : 0px;
+}
+.ViewInternshipsAdded{
+	height : auto;
+}
+#Application{
+	height : auto;
+	background-color : white;
+	box-shadow : 0 0 10 rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+	margin-left : 10px;
+}
+#Application:hover {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 0, 0, 0.7);
+}
+#InternInformation{
+  color: rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.6);
+  text-align : justify;
+  margin-left : 150px;
+  font-size : 17px;
+  font-family: "Roboto"; 
+  background-color : green;
+}

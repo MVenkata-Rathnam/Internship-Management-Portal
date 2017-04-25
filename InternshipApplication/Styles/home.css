@@ -1,0 +1,133 @@
+nav {
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 0;
+  padding: 0px 0;
+}
+nav ul{
+  text-align : right;
+  padding-top : 0px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  width: 98.5%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  padding: 20px;
+  font-family: "Roboto";
+  color: rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
+  font-size: 25px;
+  text-decoration: none;
+  display: block;
+}
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 0, 0, 0.7);
+}
+.Navigation{
+	paddding : 0px;
+}
+.Main{
+	width:98%;
+	height:auto;
+	display : block;
+}
+#slider1{
+	height: auto;
+	width : 95%;
+}
+.Information{
+	display:none;
+}
+.Arrow{
+    border-radius: 100px;
+	width : 80px;
+	background-color : white;
+	padding : 10px;
+}
+.Arrow:hover{
+	background-color : #EFEFEF;
+}
+.Heading{
+	 color: rgba(0, 0, 0, 0.5);
+	 float : left; 
+	 padding : 0px;
+	 display : inline;
+}
+.footer{
+	height : 60px;
+	width : 100%;
+	background-color : #1A2930;
+	font-family : "Roboto";
+	color: white; 
+	padding : 10px;
+}
+.footer:hover {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6), inset 0 0 1px rgba(255, 255, 255, 0.7);
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+.cancelbtn,.signupbtn{
+    float: left;
+    width: 50%;
+}
+#SignInBox {
+	display:none;
+    padding: 16px;
+}
+#SignUpBox{
+	display:none;
+	padding : 16px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.Info{
+  padding-top : 0px;
+  background-color: white;
+  width: 100%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+.Info{
+  display: inline-block;
+}
+.Info div{
+  padding: 20px;
+  font-family: "Roboto";
+  color: rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  float : left;
+  width : 21.65%;
+}
+.Info div:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  color: rgba(0, 0, 0, 0.7);
+}

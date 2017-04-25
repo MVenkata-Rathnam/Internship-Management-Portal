@@ -1,0 +1,22 @@
+<?xml version = "1.0" ?>
+<services>
+	<service>Internship posting
+	<description>Organization and individuals looking to hire interns can post their internship requirement on Victory Internship Portal. Currently this service is offered free of charge.</description>
+	</service>
+	
+	<service>Internship search and application
+	<description>Students from all over India can search and apply for internships and trainings relevant to their coursework and interest free of cost.</description>
+	</service>
+	
+	<service>Advertisement
+	<description>Victory Internship Portal enjoys a very strong reach among students in campuses all over India and organizations looking to advertise their products, services, events and competitions to college students can avail of customized advertising solutions on various Victory Internship channels (Website, Newsletter, and Social Media).</description>
+	</service>
+	
+	<service>Feedback Section
+	<description>Victory Internship Portal allows the users to provide feedback on their experience on doing an internship, any changes they wish to happen with a specific company or any specific internship personally.  The users may get response by mail from the specified company.</description>
+	</service>
+	
+	<service>Comment Section
+	<description>The Victory internship portal also provides a comment section whether the users can chat with others or with the administrators regarding the internships or any technological advancements.</description>
+	</service>
+</services>

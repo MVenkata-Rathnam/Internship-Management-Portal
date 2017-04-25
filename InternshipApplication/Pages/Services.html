@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Victory Internship Portal</title>
+<meta name="title" content="Internship Application"/>
+<meta charset="utf-8">
+<link rel = "stylesheet" type="text/css" href = "../Styles/home.css">
+<link rel = "stylesheet" type="text/css" href = "../Styles/Dashboard.css">
+<link rel = "stylesheet" type="text/css" href = "../Styles/SubMenu.css">
+</head>
+<script type = "text/javascript">
+history.pushState(null,null,document.title);
+window.addEventListener('popstate',function(){
+	history.pushState(null,null,document.title);
+});
+	function PrivacyPolicy(){
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				xmlDoc = this.responseXML;
+				var txt = "";
+				x = xmlDoc.getElementsByTagName("question");
+				y = xmlDoc.getElementsByTagName("answer");
+				for (i = 0; i < x.length; i++) {
+					txt += "<b>" + x[i].childNodes[0].nodeValue + "</b> <br>";
+					txt += y[i].childNodes[0].nodeValue + "<br><br>";
+				}
+				document.getElementById("privacy").innerHTML = txt;
+			}
+		};
+		xhttp.open("GET","PrivacyPolicy.xml", true);
+		xhttp.send();
+	}
+	function OurServices(){
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				xmlDoc = this.responseXML;
+				var txt = "";
+				x = xmlDoc.getElementsByTagName("service");
+				y = xmlDoc.getElementsByTagName("description");
+				for (i = 0; i < x.length; i++) {
+					txt += "<b>" + x[i].childNodes[0].nodeValue + "</b> : ";
+					txt += y[i].childNodes[0].nodeValue + "<br><br>";
+				}
+				document.getElementById("privacy").innerHTML = txt;
+			}
+		};
+		xhttp.open("GET","OurServices.xml", true);
+		xhttp.send();
+	}
+</script>
+<body>
+	<div class = "Main">
+		<div class = "MenuBar">
+			<nav>
+				<div class = "Heading">
+					<b style = "font-size : 30px;">VICTORY INTERNSHIP PORTAL</b>
+					<img style = "float : left" src="../Images/Logo.png" alt="Logo" height = "60px" width = "80px"><br>
+					-"Imagination at Work"
+				</div>
+				<ul>
+					<li>
+						<a class = "tooltip"  href = "../UserHome.jsp">
+							<img src = "../Images/Home.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">Dashboard</span>
+						</a>
+					</li>
+					<li>
+						<a class = "tooltip"  href = "../ViewInternship.jsp">
+							<img src = "../Images/Internships.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">View Internship</span>
+						</a>
+					</li>
+					<li>
+						<a class = "tooltip"  href = "../Comment.jsp">
+							<img src = "../Images/comment.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">Comment</span>
+						</a>
+					</li>
+					<li>
+						<a class = "tooltip"  href = "../Feedback.jsp">
+							<img src = "../Images/Feedback.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">Feedback</span>
+						</a>
+					</li>
+					<li>
+						<a class = "tooltip"  href = "../ProfileChange.jsp">
+							<img src = "../Images/Profile.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">Profile</span>
+						</a>
+					</li>
+					<li>
+						<a class = "tooltip"  href = "signout.jsp">
+							<img src = "../Images/Logout.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">Sign Out</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class = "sideBar">
+			<nav>
+				<ul>
+					<li>
+						<a class = "tooltip"  href = "AboutUs.html">
+							<img src = "../Images/AboutUs.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">About Us</span>
+						</a>
+					</li>
+					<li>
+						<a class = "tooltip"  href = "ContactUs.html">
+							<img src = "../Images/Contactus.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">FAQ And Contact</span>
+						</a>
+					</li>
+					<li>
+						<a class = "tooltip"  href = "../SuccessStory.jsp">
+							<img src = "../Images/success_story.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">Success Stories</span>
+						</a>
+					</li>
+					<li>
+						<a class = "tooltip"  href = "Services.html">
+							<img src = "../Images/GlobalNews.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">Global Services</span>
+						</a>
+					</li>
+					<li>
+						<a class = "tooltip"  href = "#subscribe">
+							<img src = "../Images/Subscribe.png" height = "30px" width = "30px"><br>
+							<span class="tooltiptext">Subscribe</span>
+						</a>
+					</li>
+				</ul>
+			  </nav>
+		</div>
+		<div class="submenu">
+			<ul class = "sub">
+				<li style = "cursor : pointer" class="one"><a onclick = "PrivacyPolicy()">Privacy Policy</a></li>
+				<li style = "cursor : pointer" class="two"><a onclick = "OurServices()">Our Services</a></li>
+			<hr />
+			</ul>
+		</div>
+		<div id= "privacy">
+		</div>
+		<div class ="footerBlock">
+			<center>
+				<h3>Copyright &copy; Venkata Rathnam Muralidharan 2017 </h3>
+			</center>
+			<div id = "subscribe" class ="subscribe">
+				<a href = "http://www.facebook.com" target="_blank"><img src = "../Images/Facebook.png" height = "50px" width = "50px"></a>
+				<a href = "http://www.linkedin.com" target="_blank"><img src = "../Images/LinkedIn.png" height = "50px" width = "50px"></a>
+				<a href = "http://www.twitter.com" target="_blank"><img src = "../Images/Twitter.png" height = "50px" width = "50px"></a>
+				<a href = "http://www.plus.google.com" target="_blank"><img src = "../Images/Google+.png" height = "50px" width = "50px"></a>
+				<a href = "http://www.skype.com" target="_blank"><img src = "../Images/Skype.png" height = "50px" width = "50px"></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
